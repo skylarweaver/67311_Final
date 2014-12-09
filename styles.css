@@ -49,5 +49,13 @@ input{
 	div#main {
 		width: 100%;
 	}
-
 }
+
+/* Angela's login style */
+
+div#login_cont {
+	position:relative;
+	top:5%;
+}
+
+
