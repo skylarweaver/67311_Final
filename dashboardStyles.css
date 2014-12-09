@@ -105,8 +105,9 @@ div#specificFeatures{
 a#logout {
     text-decoration:none;
     padding:10px;
+}
 
-span#datetime {
+span#datetime{
 	font-style: italic;
 }
 
