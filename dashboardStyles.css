@@ -101,9 +101,13 @@ div#specificFeatures{
 	display: inline-block;
 }
 
+
 a#logout {
     text-decoration:none;
     padding:10px;
+
+span#datetime {
+	font-style: italic;
 }
 
 /* Applies to larger screens */
