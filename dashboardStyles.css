@@ -29,8 +29,8 @@ div.subtopic{
 	margin-right:auto;
 	padding-top:10px;
 	padding-bottom:10px;
-	background-color: #E86B71;
-	border-bottom: 5px solid #A84052;
+	background-color: #5DD9B0;
+	border-bottom: 5px solid #47A686;
 }
 div.subsection{
 	background-color: #F9F9FF;
@@ -59,14 +59,17 @@ div#analysisRating h4{
 	font-size: 40px;
 	margin: 5px;
 	padding: 2px;
-	border-radius: 5px;
 	text-align: center;
-	color: black;
-	background-color: red;
-	/*display: inline-block;*/
+	color: white;
+	background-color: #506166;
+	border-bottom: 5px solid #1C2C47;
 }
-div#rating{
+div#analysis button {
+	display:inline-block;
+}
 
+div#rating{
+	display:inline-block;
 	width: 40%;
 	margin: auto;
 }
