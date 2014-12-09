@@ -16,10 +16,11 @@ div#backContainer a{
 }
 div#titleContainer{
 	display: inline-block;
-	margin-top: 35px;
+	margin-top: 25px;
 }
-div.header h3{
+div.header h5{
 	font-size: 24px;
+	margin-top: 0px;
 }
 
 div#content{
