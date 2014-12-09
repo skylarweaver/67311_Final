@@ -127,3 +127,37 @@ div.header{
 box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
 }
 
+div#logo {
+	animation-name: fadeslideup;
+	animation-duration: 1s;
+
+	-webkit-animation-name: fadeslideup;
+	-webkit-animation-duration: 1s;
+}
+
+
+
+@keyframes fadeslideup {
+	0% {
+		margin-top: 10px;
+		opacity: 0.2;
+	}
+	100% { 
+		margin-top:0px;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeslideup {
+	0% { 
+		margin-top: 10px;
+		opacity: 0.2;
+	}
+	100% { 
+		margin-top:0px;
+		opacity: 1;
+	}
+}
+
+
+
