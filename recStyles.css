@@ -1,5 +1,34 @@
-div#personal{
+div#recInstance{
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+div#suggest{
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+div#recs{
+	margin-left: 5px;
+	text-align: left;
 	margin-top: 10px;
+}
+
+
+div.back{
+	position: absolute;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+div.header{
+	text-align: center;
+}
+div#personal{
 	display: inline-block;
 	width: 79%;
 	text-align: left;
@@ -17,6 +46,9 @@ div#personalInformation{
 	margin-top: 24px;
 	text-align: right;
 }
+
+
+
 div#section{
 	width: 90%;
 	display: inline-block;

@@ -1,0 +1,16 @@
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#E2E9FF;
+}
+
+div#main{
+	text-align: center;
+	height:100vh; /* 100% of viewport height */
+	background-color:white;
+}
