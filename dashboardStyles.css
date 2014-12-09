@@ -27,8 +27,6 @@ div#section{
 div.subtopic{
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:10px;
-	padding-bottom:10px;
 	background-color: #5DD9B0;
 	border-bottom: 5px solid #47A686;
 }
@@ -36,26 +34,29 @@ div.subsection{
 	background-color: #F9F9FF;
 	text-align: center;
 	margin-bottom:20px;
+    padding-bottom:10px;
 }
 div.subsection a {
-	color:white;
 	text-decoration: none;
 	margin-left: auto;
 	margin-right: auto;
 }
-div.subsection h2{
+div.subsection h2 {
 	padding-top:5px;
 	padding-bottom:5px;
 	background-color: #E8EEF5; 
 }
 
 div.subtopic p{
+    padding-top:10px;
+    padding-bottom:10px;
 	margin: 0px;
 }
 div#analysisRating{
 	text-align: center;
 }
 div#analysisRating h4{
+    color:white;
 	font-size: 40px;
 	margin: 5px;
 	padding: 2px;
@@ -64,6 +65,18 @@ div#analysisRating h4{
 	background-color: #506166;
 	border-bottom: 5px solid #1C2C47;
 }
+
+button {
+  position: absolute;
+  visibility: hidden;
+}
+
+button:before {
+  content: "goodbye";
+  visibility: visible;
+}
+
+
 div#analysis button {
 	display:inline-block;
 }
