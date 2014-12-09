@@ -11,15 +11,17 @@ div#backContainer{
 }
 div#backContainer a{
 	position: absolute;
-	margin: 35px 10px 10px 10px;
+	margin: 25px 10px 10px 10px;
 	left: 15px;
 }
 div#titleContainer{
 	display: inline-block;
-	margin-top: -8px;
+	margin-top: 20px;
+
 }
 div.header h5{
 	font-size: 24px;
+	margin-top: 0px
 }
 
 div#content{
@@ -32,18 +34,19 @@ div#content p {
 }
 div#content table{
 	display: inline-block;
-	margin: 15px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 }
 
 h4#date{
 	text-align: left;
+	margin:0px;
 }
 
 td, th {
-  width: 4rem;
+  width: 6rem;
   height: 2rem;
-  padding: 5px 10px 5px 10px;
-  font-size: 20px;
+  padding: 3px 10px 3px 10px;
+  font-size: 18px;
   border: 1px solid #ccc;
   text-align: center;
 }
@@ -51,6 +54,8 @@ th {
   background: #dce5ff;
   border: 1px solid #dce5ff;
 }
-body {
-  padding: 1rem;
+
+div#content table#tableTwo{
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
 }
