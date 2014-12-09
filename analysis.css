@@ -1,0 +1,40 @@
+a.backLink{
+	text-align: left;
+	display: inline-block;
+
+}
+div#backContainer{
+	/*display: inline-block; */
+	width: 10%;
+	/* float: left; */
+	font-size: 17px;
+}
+div#backContainer a{
+	position: absolute;
+	margin: 35px 10px 10px 10px;
+	left: 15px;
+}
+div#titleContainer{
+	display: inline-block;
+	margin-top: -8px;
+}
+div.header h5{
+	font-size: 24px;
+}
+
+div#content{
+	width: 75%;
+	margin: auto;
+}
+
+div#content p {
+	text-align: justify;
+}
+div#content table{
+	display: inline-block;
+	margin: 15px 0px 0px 0px;
+}
+
+h4#date{
+	text-align: left;
+}
