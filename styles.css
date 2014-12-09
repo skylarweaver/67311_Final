@@ -129,11 +129,11 @@ div.header{
 box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
 }
 
-<<<<<<< HEAD
+
 div#main {
 	color: #4f6166;
 }
-=======
+
 div#logo {
 	animation-name: fadeslideup;
 	animation-duration: 1s;
@@ -165,7 +165,3 @@ div#logo {
 		opacity: 1;
 	}
 }
-
-
-
->>>>>>> 809d58ff9ac84aacfba693b208e191dee4b32c7a
