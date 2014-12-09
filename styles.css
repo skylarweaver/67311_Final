@@ -1,28 +1,35 @@
 html{
+	background-color:#506166;
 	padding: 0px;
 	margin: 0px;
 }
 
-body{
+body {
 	margin: 0px;
 	padding: 0px;
-	background-color:#E2E9FF;
+	background: -webkit-linear-gradient(#B5CEFF, #E2E9FF, #E2E9FF); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#B5CEFF, #E2E9FF, #E2E9FF); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#B5CEFF, #E2E9FF, #E2E9FF); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#B5CEFF, #E2E9FF, #E2E9FF); /* Standard syntax */
 }
 
 div#main{
+	position:relative;
 	text-align: center;
-	height:100vh; /* 100% of viewport height */
 	background-color:white;
 }
 
-div#form{
-	width: 150px;
-	margin: 0px;
-	display: inline-block;
+footer {
+	background-color:#506166;
+	height:80px;
+	width:100%;
+	color:white;
+	display:flex;
+	align-items:center;
 }
-
-input{
-	display: inline-block;
+footer p {
+	margin:0;
+	width:100%;
 }
 
 /* Applies to larger screens */
@@ -31,6 +38,7 @@ input{
 		text-align:center;
 	}	
 	div#main {
+		min-height: 600px;
 		width: 80%;
 		display:inline-block;
 	}
@@ -43,10 +51,8 @@ input{
 	body {
 		text-align:center;
 	}	
-	html{
-		background-color: #e2e2e2;
-	}
 	div#main {
+		min-height:500px;
 		width: 100%;
 	}
 }
@@ -55,7 +61,27 @@ input{
 
 div#login_cont {
 	position:relative;
-	top:5%;
+	padding-top:5%;
+	padding-bottom:5%;
 }
 
+button#login_button {
+	background-color: #3683FF;
+	border: none;
+	border-bottom: 5px solid #3646FF;
+	padding: 10px;
+	min-width: 150px;
+	color: white;
+	text-transform: uppercase;
+}
+
+div#form{
+	width: 150px;
+	margin: 0px;
+	display: inline-block;
+}
+
+input{
+	display: inline-block;
+}
 
