@@ -60,6 +60,11 @@ h2 {
 		min-height:500px;
 		width: 100%;
 	}
+	/*This is for the analysis page*/
+	div#content table#tableTwo{
+		display: inline-block;
+		margin: 0px 0px 10px 0px;
+	}
 }
 
 /* Angela's login style */
