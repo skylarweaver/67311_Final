@@ -1,5 +1,5 @@
 html{
-	background-color:#506166;
+	background-color: #506166;
 	padding: 0px;
 	margin: 0px;
 }
@@ -31,6 +31,11 @@ footer p {
 	margin:0;
 	width:100%;
 }
+
+h2 {
+	margin:0;
+}
+
 
 /* Applies to larger screens */
 @media only screen and (min-width:40em) {
