@@ -87,6 +87,10 @@ div#specificFeatures{
 	display: inline-block;
 }
 
+span#datetime{
+	font-style: italic;
+}
+
 /* Applies to larger screens */
 @media only screen and (min-width:40em) {
 	div#main {
