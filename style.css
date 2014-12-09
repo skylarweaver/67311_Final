@@ -1,0 +1,51 @@
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#main{
+	text-align: center;
+}
+
+div#form{
+	width: 150px;
+	margin: 0px;
+	display: inline-block;
+}
+
+input{
+	display: inline-block;
+}
+
+/* Applies to larger screens */
+@media only screen and (min-width:40em) {
+	body {
+		text-align:center;
+	}	
+	div#main {
+		width: 80%;
+		background-color:red;
+		display:inline-block;
+	}
+
+}
+
+
+/* Applies to smaller screens */
+@media only screen and (max-width:40em) {
+	body {
+		text-align:center;
+	}	
+	html{
+		background-color: #e2e2e2;
+	}
+	div#main {
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,124 @@
+html{
+	padding: 0px;
+	margin: 0px;
+	background-color: #e2e2e2;
+}
+body{
+	margin: 0px;
+	padding: 10px;
+}
+div#main{
+	text-align: center;
+}
+div#personal{
+	display: inline-block;
+	width: 79%;
+	text-align: left;
+}
+div#pic{
+	width: 45%;
+	margin: 0px;
+	display: inline-block;
+}
+div#personalInformation{
+	display: inline-block;
+	width: 42%;
+	padding-left: 2%;
+	float: right;
+	margin-top: 24px;
+	text-align: right;
+}
+div#section{
+	width: 90%;
+	display: inline-block;
+	/* text-align: center; */
+	margin: auto;
+	margin-top: 10px;
+}
+div.subsection{
+	width: 90%;
+	text-align: left;
+	margin: auto;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px outset #000000;
+	border-radius: 10px 10px 10px 10px;
+	display: inline-block;
+	padding-top: 0px;
+}
+div#innerSection{
+	/**/: 10px;
+}
+div.subsection h2{
+	font-size: 21px; 
+}
+
+div.subtopic{
+	-moz-border-radius: 1px 1px 1px 1px;
+	-webkit-border-radius: 1px 1px 1px 1px;
+	border-radius: 1px;
+	border: 1px solid #000000;
+	background-color: #b6b8ab;
+	margin: 0px;
+	height: 25px;
+}
+
+div.subtopic p{
+	margin: 0px;
+}
+div#analysisRating{
+	text-align: center;
+}
+div#analysisRating h4{
+	font-size: 40px;
+	margin: 5px;
+	padding: 2px;
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	background-color: red;
+	/*display: inline-block;*/
+}
+div#rating{
+
+	width: 40%;
+	margin: auto;
+}
+
+
+div#features p {
+margin: 0px;
+}
+
+/* Applies to larger screens */
+@media only screen and (min-width:40em) {
+	body {
+		text-align:center;
+	}	
+	div#personalInformation{
+		display: inline-block;
+		width: 42%;
+		padding-left: 2%;
+		float: right;
+		margin-top: 24px;
+		text-align: right;
+	}
+
+	div#main {
+		width: 75%;
+		display:inline-block;
+	}
+
+}
+
+
+/* Applies to smaller screens */
+@media only screen and (max-width:40em) {
+	body {
+		text-align:center;
+	}	
+	div#main {
+		width: 100%;
+	}
+
+}
