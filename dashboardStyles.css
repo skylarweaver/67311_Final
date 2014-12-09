@@ -101,10 +101,18 @@ div#specificFeatures{
 	display: inline-block;
 }
 
-
-a#logout {
+#logout {
+    background-color: #3683FF;
+    border-bottom: 5px solid #3646FF;
+    margin-bottom:20px;
+}
+div#logout a {
     text-decoration:none;
-    padding:10px;
+}
+div#logout h2 {
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 span#datetime{
