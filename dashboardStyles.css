@@ -64,6 +64,18 @@ div#analysisRating h4{
 	background-color: #506166;
 	border-bottom: 5px solid #1C2C47;
 }
+
+button {
+  position: absolute;
+  visibility: hidden;
+}
+
+button:before {
+  content: "goodbye";
+  visibility: visible;
+}
+
+
 div#analysis button {
 	display:inline-block;
 }
