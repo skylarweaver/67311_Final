@@ -1,14 +1,14 @@
 img#logo {
-	position:absolute;
-	right: 10px;
-	top: 10px;
+	display: inline-block;
+	/*margin-left: 5%;*/
+	margin-right: 3%;
 }
 
 div#personal{
 	display: inline-block;
-	width: 80%;
+	width: 60%;
 	text-align: left;
-	padding-top:5%;
+	padding-top: 5%;
 }
 div#pic{
 	float:left;
@@ -111,6 +111,7 @@ div#specificFeatures{
 @media only screen and (max-width:40em) {
 	img#logo {
 		display:none;
+		margin:0px;
 	}
 
 	div.subsection { 
@@ -123,6 +124,9 @@ div#specificFeatures{
 
 	div#main {
 		width: 100%;
+	}
+	div#personal{
+		width: 80%;
 	}
 
 } 
