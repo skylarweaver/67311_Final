@@ -83,6 +83,11 @@ h3 {
 		min-height:500px;
 		width: 100%;
 	}
+	/*This is for the analysis page*/
+	div#content table#tableTwo{
+		display: inline-block;
+		margin: 0px 0px 10px 0px;
+	}
 }
 
 /* Angela's login style */
@@ -111,5 +116,14 @@ div#form{
 
 input{
 	display: inline-block;
+}
+
+div.header{
+	background-color: #e2e9ff;
+	height: 70px;
+	margin-bottom: 10px;
+-webkit-box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
 }
 
